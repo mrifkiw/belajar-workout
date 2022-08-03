@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56CF056289A021A0088320B /* belajar-workout WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A56CF055289A021A0088320B /* belajar-workout WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A56CF05B289A021B0088320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56CF05A289A021B0088320B /* Assets.xcassets */; };
+		A56CF061289A021B0088320B /* belajar-workout WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A56CF060289A021B0088320B /* belajar-workout WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A56CF066289A021B0088320B /* belajar_workoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CF065289A021B0088320B /* belajar_workoutApp.swift */; };
+		A56CF068289A021B0088320B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CF067289A021B0088320B /* ContentView.swift */; };
+		A56CF06A289A021B0088320B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CF069289A021B0088320B /* NotificationController.swift */; };
+		A56CF06C289A021B0088320B /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CF06B289A021B0088320B /* NotificationView.swift */; };
+		A56CF06E289A021B0088320B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56CF06D289A021B0088320B /* ComplicationController.swift */; };
+		A56CF070289A021C0088320B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56CF06F289A021C0088320B /* Assets.xcassets */; };
+		A56CF073289A021C0088320B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56CF072289A021C0088320B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56CF057289A021A0088320B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56CF04B289A02190088320B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56CF054289A021A0088320B;
+			remoteInfo = "belajar-workout WatchKit App";
+		};
+		A56CF062289A021B0088320B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56CF04B289A02190088320B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56CF05F289A021B0088320B;
+			remoteInfo = "belajar-workout WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A56CF07B289A021C0088320B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A56CF061289A021B0088320B /* belajar-workout WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56CF07F289A021C0088320B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A56CF056289A021A0088320B /* belajar-workout WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A56CF051289A02190088320B /* belajar-workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "belajar-workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56CF055289A021A0088320B /* belajar-workout WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "belajar-workout WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56CF05A289A021B0088320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56CF060289A021B0088320B /* belajar-workout WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "belajar-workout WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56CF065289A021B0088320B /* belajar_workoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = belajar_workoutApp.swift; sourceTree = "<group>"; };
+		A56CF067289A021B0088320B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A56CF069289A021B0088320B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A56CF06B289A021B0088320B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A56CF06D289A021B0088320B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A56CF06F289A021C0088320B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56CF072289A021C0088320B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A56CF074289A021C0088320B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56CF075289A021C0088320B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56CF05D289A021B0088320B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56CF04A289A02190088320B = {
+			isa = PBXGroup;
+			children = (
+				A56CF059289A021A0088320B /* belajar-workout WatchKit App */,
+				A56CF064289A021B0088320B /* belajar-workout WatchKit Extension */,
+				A56CF052289A02190088320B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56CF052289A02190088320B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56CF051289A02190088320B /* belajar-workout.app */,
+				A56CF055289A021A0088320B /* belajar-workout WatchKit App.app */,
+				A56CF060289A021B0088320B /* belajar-workout WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56CF059289A021A0088320B /* belajar-workout WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A56CF05A289A021B0088320B /* Assets.xcassets */,
+			);
+			path = "belajar-workout WatchKit App";
+			sourceTree = "<group>";
+		};
+		A56CF064289A021B0088320B /* belajar-workout WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A56CF065289A021B0088320B /* belajar_workoutApp.swift */,
+				A56CF067289A021B0088320B /* ContentView.swift */,
+				A56CF069289A021B0088320B /* NotificationController.swift */,
+				A56CF06B289A021B0088320B /* NotificationView.swift */,
+				A56CF06D289A021B0088320B /* ComplicationController.swift */,
+				A56CF06F289A021C0088320B /* Assets.xcassets */,
+				A56CF074289A021C0088320B /* Info.plist */,
+				A56CF075289A021C0088320B /* PushNotificationPayload.apns */,
+				A56CF071289A021C0088320B /* Preview Content */,
+			);
+			path = "belajar-workout WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A56CF071289A021C0088320B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A56CF072289A021C0088320B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56CF050289A02190088320B /* belajar-workout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56CF080289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout" */;
+			buildPhases = (
+				A56CF04F289A02190088320B /* Resources */,
+				A56CF07F289A021C0088320B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56CF058289A021A0088320B /* PBXTargetDependency */,
+			);
+			name = "belajar-workout";
+			productName = "belajar-workout";
+			productReference = A56CF051289A02190088320B /* belajar-workout.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A56CF054289A021A0088320B /* belajar-workout WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56CF07C289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout WatchKit App" */;
+			buildPhases = (
+				A56CF053289A021A0088320B /* Resources */,
+				A56CF07B289A021C0088320B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56CF063289A021B0088320B /* PBXTargetDependency */,
+			);
+			name = "belajar-workout WatchKit App";
+			productName = "belajar-workout WatchKit App";
+			productReference = A56CF055289A021A0088320B /* belajar-workout WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A56CF05F289A021B0088320B /* belajar-workout WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56CF078289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout WatchKit Extension" */;
+			buildPhases = (
+				A56CF05C289A021B0088320B /* Sources */,
+				A56CF05D289A021B0088320B /* Frameworks */,
+				A56CF05E289A021B0088320B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "belajar-workout WatchKit Extension";
+			productName = "belajar-workout WatchKit Extension";
+			productReference = A56CF060289A021B0088320B /* belajar-workout WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56CF04B289A02190088320B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A56CF050289A02190088320B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A56CF054289A021A0088320B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A56CF05F289A021B0088320B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A56CF04E289A02190088320B /* Build configuration list for PBXProject "belajar-workout" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56CF04A289A02190088320B;
+			productRefGroup = A56CF052289A02190088320B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56CF050289A02190088320B /* belajar-workout */,
+				A56CF054289A021A0088320B /* belajar-workout WatchKit App */,
+				A56CF05F289A021B0088320B /* belajar-workout WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56CF04F289A02190088320B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56CF053289A021A0088320B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56CF05B289A021B0088320B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56CF05E289A021B0088320B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56CF073289A021C0088320B /* Preview Assets.xcassets in Resources */,
+				A56CF070289A021C0088320B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56CF05C289A021B0088320B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56CF06A289A021B0088320B /* NotificationController.swift in Sources */,
+				A56CF068289A021B0088320B /* ContentView.swift in Sources */,
+				A56CF06E289A021B0088320B /* ComplicationController.swift in Sources */,
+				A56CF066289A021B0088320B /* belajar_workoutApp.swift in Sources */,
+				A56CF06C289A021B0088320B /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56CF058289A021A0088320B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56CF054289A021A0088320B /* belajar-workout WatchKit App */;
+			targetProxy = A56CF057289A021A0088320B /* PBXContainerItemProxy */;
+		};
+		A56CF063289A021B0088320B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56CF05F289A021B0088320B /* belajar-workout WatchKit Extension */;
+			targetProxy = A56CF062289A021B0088320B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A56CF076289A021C0088320B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A56CF077289A021C0088320B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56CF079289A021C0088320B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"belajar-workout WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "belajar-workout WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "belajar-workout WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A56CF07A289A021C0088320B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"belajar-workout WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "belajar-workout WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "belajar-workout WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A56CF07D289A021C0088320B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = belajar_workout_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "belajar-workout WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		A56CF07E289A021C0088320B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = belajar_workout_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "belajar-workout WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		A56CF081289A021C0088320B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A56CF082289A021C0088320B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SN74J4HZJ;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.widdsss.belajar-workout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56CF04E289A02190088320B /* Build configuration list for PBXProject "belajar-workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56CF076289A021C0088320B /* Debug */,
+				A56CF077289A021C0088320B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56CF078289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56CF079289A021C0088320B /* Debug */,
+				A56CF07A289A021C0088320B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56CF07C289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56CF07D289A021C0088320B /* Debug */,
+				A56CF07E289A021C0088320B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56CF080289A021C0088320B /* Build configuration list for PBXNativeTarget "belajar-workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56CF081289A021C0088320B /* Debug */,
+				A56CF082289A021C0088320B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A56CF04B289A02190088320B /* Project object */;
+}
