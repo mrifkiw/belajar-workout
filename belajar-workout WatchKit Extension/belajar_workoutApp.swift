@@ -9,13 +9,20 @@ import SwiftUI
 
 @main
 struct belajar_workoutApp: App {
-    @SceneBuilder var body: some Scene {
-        WindowGroup {
-            NavigationView {
-                ContentView()
-            }
-        }
 
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+  @StateObject var workoutManager = WorkoutManager()
+
+  @SceneBuilder var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        StartView()
+      }
+      .sheet(isPresented: $workoutManager.showingSummaryView) {
+        SummaryView()
+      }
+      .environmentObject(workoutManager)
     }
+
+    WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+  }
 }
